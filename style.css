@@ -1,0 +1,62 @@
+body{
+    background: #BE93C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.main{
+    width: 600px;
+    height: 80%;
+    background-color: rgb(67, 183, 144);
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+    margin-top: 90px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 54px 55px, rgba(0, 0, 0, 0.3) 0px -12px 30px, rgba(0, 0, 0, 0.3) 0px 4px 6px, rgba(0, 0, 0, 0.3) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cnt{
+    width: 95%;
+    height: 350px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    border-radius: 20px;
+    margin: 10px;
+}
+.cnt > .cnt1, .cnt2{
+    width: 100%;
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.cnt > .cnt2{
+    width: 70%;
+}
+.p{
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    left: 150px;
+    margin: 10px;
+}
+#color{
+    width: 150px;
+    height: 150px;
+}
+.para{
+    font-size: 20px;
+    font-weight: bold;
+    background-color:rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 3px;
+    width: 140px;
+    margin: 5px;
+    color: white;
+}
+.cnt2{
+    background-color: rgb(236, 94, 54);
+    font-size: 18px;
+    font-weight: bold;
+}
